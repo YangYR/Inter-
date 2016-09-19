@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <!--兼容IE浏览器-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--兼容高速浏览模式-->
+    <meta name="renderer" content="webkit">
+    <!--移动设计优先(响应式)-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Inter网</title>
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--IE8版本之前(6,7,8)不支持HTML5的新标签和CSS3的媒体查询-->
+    <!--[if lt IE 9]>
+    <script src="bootstrap/js/html5shiv.min.js"></script>
+    <script src="bootstrap/js/respond.min.js"></script>
+<![endif]-->
+    <link rel="stylesheet" href="css/intel.css"/>
+</head>
+<body>
+    <!--导航条-->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!--针对移动端的容器-->
+            <div class="navbar-header">
+                <!--汉堡包按钮-->
+                <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mycollapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!--品牌图标-->
+                <a href="#" class="navbar-brand"></a>
+            </div>
+            <!--包裹导航条的组件的容器-->
+            <div id="mycollapse" class="navbar-collapse collapse">
+                <!--下拉菜单(居左)-->
+                <!--导航组件-->
+                <ul class="nav navbar-nav navbar-left">
+                    <!--嵌套下拉菜单-->
+                    <li class="active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            菜单<span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">因特尔产品</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">热点话题</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">用户</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">购买</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">产品支持</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">关于因特尔</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <!--语言&登录(居右)-->
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">China(简体中文)</a></li>
+                    <li>
+                        <a href="#" data-toggle="dropdown">登录</a>
+                        <div class="dropdown-menu">
+                            <!--面版组件-->
+                            <div class="panel">
+                                <div class="panel-body">
+                                    <h3>登录</h3>
+                                    <p>您是否在因特尔工作?</p>
+                                    <form action="#">
+                                        <div class="form-group">
+                                            <input type="text" placeholder="用户名" class="form-control"/>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="password" class="form-control" placeholder="密码"/>
+                                        </div>
+                                        <p class="form-control-static">您登录表明您同意我们的服务条款</p>
+                                        <button class="btn btn-info btn-xs">登录</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+
+                    </li>
+                </ul>
+                <!--搜索框(居右)-->
+                <form action="#" class="navbar-form navbar-right" >
+                    <p class="form-control-static">查找内容</p>
+                    <p class="form-control-static">|</p>
+                    <div class="form-group has-feedback">
+                        <input type="search" class="form-control" placeholder="搜索"/>
+                        <span class="glyphicon glyphicon-search form-control-feedback"></span>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!--页面主体-->
+    <div class="container">
+        <!--第一行左侧内容-->
+        <div class="row" style="margin-bottom: 20px">
+            <div class="col-md-8 col-sm-12 col-xs-12">
+                <!--引入图片-->
+                <img class="img-responsive" src="img/intel.web.864.486.1.jpg" alt="#"/>
+                <!--图片描述(待定:重新定位)-->
+                <div class="img-title">
+                    <h2>五代酷睿芯，强劲创体验</h2>
+                    <p>第五代智能英特尔®酷睿™处理器锋芒登场，革命性突破的领先技术，彻底颠覆传统PC使用体验，
+                        <br/>带您进入全新数字世界</p>
+                    <a href="#" class="btn btn-info">立即探索第五代智能英特尔®酷睿™处理器</a>
+                </div>
+            </div>
+            <!--第一行右侧内容-->
+            <div class="col-md-4 col-sm-12">
+                <div class="row">
+                    <div class="col-md-12 col-sm-6 col-xs-12">
+                        <img class="img-responsive" src="img/intel.web.368.207.1.jpg" alt="#"/>
+                        <!--图片描述(待定:重新定位)-->
+                        <div class="half-mask">
+                            <h4>解密2合一电脑</h4>
+                            <p>搭载因特尔处理器2合1,助你高效工作的同时带给你灵活可触控的平板体验</p>
+                            <a href="#" class="btn btn-link">了解更多</a>
+                        </div>
+                    </div>
+                    <!--媒体对象-->
+                    <div class="col-md-12 col-sm-6 col-xs-12">
+                        <div class="media">
+                            <div class="media-left media-middle">
+                                <img class="media-object" src="img/intel.web.81.108.png" alt=""/>
+                            </div>
+                            <div class="media-body" style="border-left: 1px solid #00AEEF;padding-left: 10px">
+                                <ul class="list-unstyled">
+                                    <li><a href="#">这是一段测试内容</a></li>
+                                    <li><a href="#">这是一段测试内容</a></li>
+                                    <li><a href="#">这是一段测试内容</a></li>
+                                    <li><a href="#">这是一段测试内容</a></li>
+                                    <li><a href="#">这是一段测试内容</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--第二个内容-->
+        <div class="row" style="margin-bottom: 20px">
+            <div class="col-md-8 col-sm-12 col-xs-12 col-md-push-4">
+                <img src="img/intel.web.864.486.2.jpg" alt="#" class="img-responsive"/>
+                <div class="img-title">
+                    <h2>IT的最佳拍档</h2>
+                    <p>在因特尔中心您可以获取各种案例和产品</p>
+                    <a href="#" class="btn btn-info">了解更多</a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12 col-md-pull-8">
+                <div class="row">
+                    <div class="col-md-12 col-sm-6 col-xs-12 ">
+                        <img class="img-responsive" src="img/intel.web.368.207.2.jpg" alt="#"/>
+                        <div class="half-mask">
+                            <h4>马上订阅</h4>
+                        </div>
+
+                    </div>
+                    <div class="col-md-12 col-sm-6 col-xs-12">
+                        <div class="media">
+                            <div class="media-body">
+                                <ul class="list-unstyled" style="border-left: 1px solid #00AEEF;padding-left: 10px">
+                                    <li><a href="#">测试内容</a></li>
+                                    <li><a href="#">测试内容</a></li>
+                                    <li><a href="#">测试内容</a></li>
+                                    <li><a href="#">测试内容</a></li>
+                                    <li><a href="#">测试内容</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--第三个内容-->
+        <div class="row">
+            <div class="col-md-8 col-sm-12 col-xs-12">
+                <!--引入图片-->
+                <img class="img-responsive" src="img/intel.web.864.486.3.jpg" alt="#"/>
+                <!--图片描述(待定:重新定位)-->
+                <div class="img-title">
+                    <h2>灵活高效,迅速响应,真正的业务优势</h2>
+                    <p>第五代智能英特尔®酷睿™处理器锋芒登场，革命性突破的领先技术，彻底颠覆传统PC使用体验，                     <br/>带您进入全新数字世界</p>
+                    <a href="#" class="btn btn-info">了解内容</a>
+                </div>
+            </div>
+            <!--第三行右侧内容-->
+            <div class="col-md-4 col-sm-12">
+                <div class="row">
+                    <div class="col-md-12 col-sm-6 col-xs-12">
+                        <img class="img-responsive" src="img/intel.web.368.207.3.jpg" alt="#"/>
+                        <!--图片描述(待定:重新定位)-->
+                        <div class="half-mask">
+                            <h4>因特尔产品中心</h4>
+                        </div>
+                    </div>
+                    <!--媒体对象-->
+                    <div class="col-md-12 col-sm-6 col-xs-12">
+                        <div class="media">
+                            <div class="media-body" style="border-left: 1px solid #00AEEF;padding-left: 5px">
+                                <ul class="list-unstyled">
+                                    <li><a href="#">这是一段测试内容</a></li>
+                                    <li><a href="#">这是一段测试内容</a></li>
+                                    <li><a href="#">这是一段测试内容</a></li>
+                                    <li><a href="#">这是一段测试内容</a></li>
+                                    <li><a href="#">这是一段测试内容</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--页脚-->
+    <footer>
+        <div class="container">
+            <!--第一行-->
+            <div class="row">
+                <div class="col-md-3 col-xs-6 col-sm-6">
+                    <ul class="list-unstyled">
+                        <li><h4>这是一个标题</h4></li>
+                        <li><a href="#">选项</a></li>
+                        <li><a href="#">选项</a></li>
+                        <li><a href="#">选项</a></li>
+                        <li><a href="#">选项</a></li>
+                        <li><a href="#">选项</a></li>
+                        <li><a href="#">选项</a></li>
+
+                    </ul>
+                </div>
+                <div class="col-md-3 col-xs-6 col-sm-6">
+                    <ul class="list-unstyled">
+                        <li><h4>这是一个标题</h4></li>
+                        <li><a href="#">选项</a></li>
+                        <li><a href="#">选项</a></li>
+                        <li><a href="#">选项</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-xs-6 col-sm-6">
+                    <ul class="list-unstyled">
+                        <li><h4>这是一个标题</h4></li>
+                        <li><a href="#">选项</a></li>
+                        <li><a href="#">选项</a></li>
+                        <li><a href="#">选项</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-xs-6 col-sm-6">
+                    <ul class="list-unstyled">
+                        <li><h4>这是一个标题</h4></li>
+                        <li><a href="#">选项</a></li>
+                        <li><a href="#">选项</a></li>
+                        <li><a href="#">选项</a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <!--第二行-->
+            <div class="row">
+                <div class="col-md-12">
+                    <p><img src="img/logo.png" alt="#"/>&reg; 英特尔公司 京ICP备 14036123号</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<!--基于jquery实现的-->
+<script src="bootstrap/js/jquery-1.11.3.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

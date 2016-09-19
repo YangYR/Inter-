@@ -1,0 +1,14 @@
+.container-fluid{width: 100%}
+@media screen and (max-width: 768px){
+    /*手机*/
+    .container{width: 100%}
+}
+@media screen and (min-width: 768px){
+    /*平板*/
+}
+@media screen and (min-width: 992px){
+    /*桌面浏览器*/
+}
+@media screen and (min-width: 1200px){
+    /*手机*/
+}
